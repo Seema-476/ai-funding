@@ -12,7 +12,7 @@ const FrequentlyAskQuestions = () => {
         <div className='bg-creamy pt-[60px] pb-[70px]'>
             <div className='max-w-[1240px] mx-auto px-3'>
                 <CommonHeading text="Learn more with FAQ" className="pb-7"></CommonHeading>
-                <div className='max-w-[1240px] mx-auto px-3 duration-1000 ease-in-out pt-[60px]'>
+                <div className='max-w-[1240px] mx-auto px-3 duration-1000 ease-in-out pt-[60px] cursor-pointer'>
                     {FREQUENTLY_ASK_QUESTIONS.map((obj, index) => (
                         <div key={index} onClick={() => toggleAccordion(index)} class={`border-b w-full border-silver-gray ${accoActive === index ? '' : ''}`}>
                             <div className='flex items-center justify-between'><p className='font-medium text-lg leading-6 text-dusk-black py-5 px-4 max-md:max-w-[235px]'>{obj.question}</p>
