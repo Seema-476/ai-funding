@@ -11,6 +11,7 @@ const FrequentlyAskQuestions = () => {
     return (
         <div className='bg-creamy pt-[60px] pb-[70px]'>
             <div className='max-w-[1240px] mx-auto px-3'>
+                <p className='font-medium text-sm leading-custom-2xl text-gray text-center pb-5'>STILL HAVE QUESTIONS?</p>
                 <CommonHeading text="Learn more with FAQ" className="pb-7"></CommonHeading>
                 <div className='max-w-[1240px] mx-auto px-3 duration-1000 ease-in-out pt-[60px] cursor-pointer'>
                     {FREQUENTLY_ASK_QUESTIONS.map((obj, index) => (
