@@ -1,0 +1,20 @@
+html,body{
+    font-family: 'poppins',sans-serif;
+}
+
+ @font-face {
+     font-family: 'abril display';
+     src: url("./assets/font/AbrilDisplaySemiBold.otf");
+     font-weight: 600;
+ }
+
+@font-face {
+    font-family: 'abril display';
+    src: url("./assets/font/AbrilDisplayBold.otf");
+    font-weight: 700;
+}
+.gradient-border{
+    border: 1.5px solid;
+    border-image-source: linear-gradient(291.92deg, #F99F55 25.32%, #4C57FF 80.04%);
+    border-image-slice: 1;
+}
